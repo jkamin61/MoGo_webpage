@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif, "Montserrat", "Kaushan Script", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,6 @@
+<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1.5" y="1.5" width="21" height="16.23" rx="1.91" fill="#FFFFFF" stroke="#95E1D3" stroke-miterlimit="10" stroke-width="1.91" />
+  <polygon points="15.82 22.5 8.18 22.5 9.14 17.73 14.86 17.73 15.82 22.5" fill="#FFFFFF" stroke="#95E1D3" stroke-miterlimit="10" stroke-width="1.91" />
+  <line x1="5.32" y1="22.5" x2="18.68" y2="22.5" fill="none" stroke="#95E1D3" stroke-miterlimit="10" stroke-width="1.91" />
+  <circle cx="12" cy="14.86" r="0.95" fill="#95E1D3" />
+</svg>
