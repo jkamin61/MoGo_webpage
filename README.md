@@ -1,2 +1,1 @@
-# mentor-task
-recruitment purpose
+Re-creation of a template
