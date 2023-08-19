@@ -165,7 +165,7 @@
     position: absolute;
     align-items: center;
     justify-content: center;
-    background-color: $deepOrange;
+
     opacity: 0;
     transition: opacity 0.3s ease;
   }
@@ -174,9 +174,15 @@
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
+    filter: brightness(100%);
     @media screen and (min-width: 1200px) {
-      width: 24px;
-      height: 24px;
+      width: 20px;
+      height: 20px;
+    }
+    &:hover {
+      filter: brightness(0) invert(1);
+      border-color: $deepOrange;
+      cursor: pointer;
     }
   }
 
@@ -195,10 +201,11 @@
     align-items: center;
     width: 24px;
     height: 24px;
-    border-right: 1px solid $lightYellow;
+    border-right: 1px solid $deepOrange;
+    background-color: $lightYellow;
     &:hover {
-      transform: scale(0.9);
-      transition-delay: 0.1s;
+      background-color: $deepOrange;
+      cursor: pointer;
     }
     @media screen and (min-width: 1200px) {
       width: 32px;
@@ -211,6 +218,10 @@
   }
   &__image-block:hover > &__image {
     opacity: 20%;
+  }
+  &__image-block:hover > &__social-icon {
+    filter: brightness(0) invert(1);
+    border-color: $deepOrange;
   }
   &__item {
     display: flex;
