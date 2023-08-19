@@ -26,3 +26,17 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.subheading {
+  font-family: "Kaushan Script";
+  font-weight: 500;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    font-family: "Kaushan Script";
+    font-weight: 500;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+    font-family: "Kaushan Script";
+    font-weight: 500;
+  }
+}

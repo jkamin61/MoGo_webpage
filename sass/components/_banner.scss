@@ -5,17 +5,17 @@
   align-items: center;
   justify-items: center;
   @media screen and (min-width: 768px) {
-    padding-top: 100px;
+    padding-top: 40px;
   }
   @media screen and (min-width: 1200px) {
-    padding-top: 200px;
+    padding-top: 80px;
   }
   &__section {
     background-image: url("../images/eagle-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 211px;
+    height: 100%;
     object-fit: cover;
     margin: 10px 10px;
     @media (min-device-pixel-ratio: 2),
@@ -25,7 +25,7 @@
     }
     @media screen and (min-width: 768px) {
       background-image: url("../images/eagle-tablet.png");
-      height: 449px;
+      height: 100%;
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
@@ -34,7 +34,7 @@
     }
     @media screen and (min-width: 1200px) {
       background-image: url("../images/eagle-desktop.png");
-      height: 649px;
+      height: 100%;
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
@@ -65,13 +65,13 @@
     margin-top: 5px;
     margin-bottom: 15px;
     font-family: "Montserrat";
+    width: 260px;
     @media screen and (min-width: 768px) {
       font-size: 42px;
-      width: 40%;
+      width: 308px;
     }
     @media screen and (min-width: 1200px) {
       font-size: 46px;
-      width: 25%;
     }
   }
   &__button {
@@ -80,6 +80,8 @@
     width: 80px;
     height: 20px;
     border: solid 1px white;
+    margin-top: 5px;
+    margin-bottom: 40px;
     background-color: transparent;
     cursor: pointer;
     transition: background 0.3s, box-shadow 0.3s, transform 0.3s, opacity 0.3s;
@@ -87,11 +89,15 @@
       width: 120px;
       height: 30px;
       font-size: 10px;
+      margin-top: 15px;
+      margin-bottom: 80px;
     }
     @media screen and (min-width: 1200px) {
       width: 160px;
       height: 40px;
       font-size: 12px;
+      margin-top: 20px;
+      margin-bottom: 120px;
     }
   }
   &__button:hover {
