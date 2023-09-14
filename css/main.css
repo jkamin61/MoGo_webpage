@@ -347,50 +347,6 @@ a {
     margin-top: 20px;
   }
 }
-.service__subheading {
-  font-family: "Kaushan Script";
-  font-weight: 500;
-}
-@media screen and (min-width: 768px) {
-  .service__subheading {
-    font-size: 14px;
-    font-family: "Kaushan Script";
-    font-weight: 500;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .service__subheading {
-    font-size: 18px;
-    font-family: "Kaushan Script";
-    font-weight: 500;
-  }
-}
-.service__headings {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
-}
-@media screen and (min-width: 768px) {
-  .service__headings {
-    gap: 8px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .service__headings {
-    gap: 10px;
-  }
-}
-.service__heading {
-  font-family: "Montserrat";
-  font-size: small;
-}
-@media screen and (min-width: 1200px) {
-  .service__heading {
-    font-size: 18px;
-  }
-}
 .service__list {
   display: grid;
   grid-template-rows: auto;
@@ -400,23 +356,6 @@ a {
   .service__list {
     grid-template-columns: 33% 33% 33%;
     gap: 10px;
-  }
-}
-.service__seperator {
-  display: inline-block;
-  background-color: #f38181;
-  width: 30px;
-  height: 2px;
-  margin-top: 5px;
-}
-@media screen and (min-width: 768px) {
-  .service__seperator {
-    margin-top: 10px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .service__seperator {
-    margin-top: 12px;
   }
 }
 .service__item {
@@ -479,58 +418,6 @@ a {
   .team {
     margin-top: 20px;
   }
-}
-.team__headings {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-@media screen and (min-width: 768px) {
-  .team__headings {
-    gap: 8px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team__headings {
-    gap: 10px;
-  }
-}
-.team__subheading {
-  font-family: "Kaushan Script";
-  font-weight: 500;
-}
-@media screen and (min-width: 768px) {
-  .team__subheading {
-    font-size: 14px;
-    font-family: "Kaushan Script";
-    font-weight: 500;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team__subheading {
-    font-size: 18px;
-    font-family: "Kaushan Script";
-    font-weight: 500;
-  }
-}
-.team__heading {
-  font-family: "Montserrat";
-  font-size: small;
-}
-@media screen and (min-width: 1200px) {
-  .team__heading {
-    font-size: 18px;
-  }
-}
-.team__seperator {
-  display: inline-block;
-  background-color: #f38181;
-  width: 30px;
-  height: 2px;
-  margin-top: 5px;
 }
 .team__description {
   font-family: "Montserrat";
@@ -757,30 +644,30 @@ a {
     margin-top: 20px;
   }
 }
-.footer__form > label {
+.footer__form {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-bottom: 5px;
 }
-.footer__form > label-block {
+.footer__form-block {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 @media screen and (min-width: 768px) {
-  .footer__form > label-block {
+  .footer__form-block {
     justify-content: end;
   }
 }
 @media screen and (min-width: 768px) {
-  .footer__form > label {
+  .footer__form {
     justify-content: end;
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer__form > label {
+  .footer__form {
     padding-right: 50px;
   }
 }
@@ -839,4 +726,66 @@ a {
 }
 .footer__link {
   color: #f38181;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .headline {
+    gap: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .headline {
+    gap: 10px;
+  }
+}
+.headline__subheading {
+  font-family: "Kaushan Script";
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .headline__subheading {
+    font-size: 14px;
+    font-family: "Kaushan Script";
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .headline__subheading {
+    font-size: 18px;
+    font-family: "Kaushan Script";
+    font-weight: 500;
+  }
+}
+.headline__main-heading {
+  font-family: "Montserrat";
+  font-size: small;
+}
+@media screen and (min-width: 1200px) {
+  .headline__main-heading {
+    font-size: 18px;
+  }
+}
+.headline__seperator {
+  display: inline-block;
+  background-color: #f38181;
+  width: 30px;
+  height: 2px;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .headline__seperator {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .headline__seperator {
+    margin-top: 12px;
+  }
 }/*# sourceMappingURL=main.css.map */
