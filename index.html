@@ -23,13 +23,15 @@
           </div>
           <nav class="header__navigation hidden">
             <div class="header__menu">
-              <nav class="header__links">
-                <a class="header__link" href="index.html">ABOUT</a>
-                <a class="header__link" href="index.html">SERVICE</a>
-                <a class="header__link" href="index.html">WORK</a>
-                <a class="header__link" href="index.html">BLOG</a>
-                <a class="header__link" href="index.html">CONTACT</a>
-              </nav>
+              <ul>
+                <nav class="header__links">
+                  <li class="header__link" href="index.html">ABOUT</li>
+                  <li class="header__link" href="index.html">SERVICE</li>
+                  <li class="header__link" href="index.html">WORK</li>
+                  <li class="header__link" href="index.html">BLOG</li>
+                  <li class="header__link" href="index.html">CONTACT</li>
+                </nav>
+              </ul>
               <div class="header__right-side">
                 <img
                   src="images/icons/close.svg"
@@ -41,13 +43,15 @@
               </div>
             </div>
           </nav>
-          <nav class="header__navi-bar">
-            <a class="header__bar-link" href="index.html">ABOUT</a>
-            <a class="header__bar-link" href="index.html">SERVICE</a>
-            <a class="header__bar-link" href="index.html">WORK</a>
-            <a class="header__bar-link" href="index.html">BLOG</a>
-            <a class="header__bar-link" href="index.html">CONTACT</a>
-          </nav>
+          <ul>
+            <nav class="header__navi-bar">
+              <li class="header__bar-link" href="index.html">ABOUT</li>
+              <li class="header__bar-link" href="index.html">SERVICE</li>
+              <li class="header__bar-link" href="index.html">WORK</li>
+              <li class="header__bar-link" href="index.html">BLOG</li>
+              <li class="header__bar-link" href="index.html">CONTACT</li>
+            </nav>
+          </ul>
           <div class="header__clickable">
             <button class="header__loop-button">
               <img
@@ -88,10 +92,10 @@
     </section>
     <main>
       <section class="service container">
-        <div class="service__headings">
-          <h4 class="subheading">We work with</h4>
-          <h3 class="service__heading">AMAZING SERVICES</h3>
-          <hr class="service__seperator" />
+        <div class="headline">
+          <h4 class="headline__subheading">We work with</h4>
+          <h3 class="headline__main-heading">AMAZING SERVICES</h3>
+          <hr class="headline__seperator" />
         </div>
         <ul class="service__list">
           <li class="service__item">
@@ -193,10 +197,10 @@
         </ul>
       </section>
       <section class="team container">
-        <div class="team__headings">
-          <h4 class="subheading">Who we are</h4>
-          <h3 class="team__heading">MEET OUR TEAM</h3>
-          <hr class="team__seperator" />
+        <div class="headline">
+          <h4 class="headline__subheading">We work with</h4>
+          <h3 class="headline__main-heading">AMAZING SERVICES</h3>
+          <hr class="headline__seperator" />
         </div>
         <p class="team__description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nesciunt
@@ -206,8 +210,8 @@
         <ul class="team__introduction">
           <li class="team__item">
             <div class="team__image-gradient">
-              <div class="team__social">
-                <div class="team__image-block">
+              <ul class="team__social">
+                <li class="team__image-block">
                   <img
                     src="images/icons/facebook.svg"
                     alt="facebook-icon"
@@ -215,8 +219,8 @@
                     height="16"
                     class="team__social-icon"
                   />
-                </div>
-                <div class="team__image-block">
+                </li>
+                <li class="team__image-block">
                   <img
                     src="images/icons/twitter.svg"
                     alt="twitter-icon"
@@ -224,8 +228,8 @@
                     height="16"
                     class="team__social-icon"
                   />
-                </div>
-                <div class="team__image-block">
+                </li>
+                <li class="team__image-block">
                   <img
                     src="images/icons/pinterest.svg"
                     alt="pinterest-icon"
@@ -233,8 +237,8 @@
                     height="16"
                     class="team__social-icon"
                   />
-                </div>
-                <div class="team__image-block">
+                </li>
+                <li class="team__image-block">
                   <img
                     src="images/icons/instagram.svg"
                     alt="instagram-icon"
@@ -242,8 +246,8 @@
                     height="16"
                     class="team__social-icon"
                   />
-                </div>
-              </div>
+                </li>
+              </ul>
               <picture class="team__picture">
                 <source
                   srcset="
@@ -434,8 +438,8 @@
         <form class="footer__form">
           <label>
             <input type="text" placeholder="Your Email" class="footer__input" />
-            <button type="submit" class="footer__button">SUBSCRIBE</button>
           </label>
+          <button type="submit" class="footer__button">SUBSCRIBE</button>
         </form>
       </div>
       <div class="footer__explanation">
@@ -448,6 +452,6 @@
         </p>
       </div>
     </footer>
+    <script defer src="js/index.js"></script>
   </body>
-  <script defer src="js/index.js"></script>
 </html>

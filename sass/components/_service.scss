@@ -4,40 +4,6 @@
   @media screen and (min-width: 1200px) {
     margin-top: 20px;
   }
-  &__subheading {
-    font-family: "Kaushan Script";
-    font-weight: 500;
-    @media screen and (min-width: 768px) {
-      font-size: 14px;
-      font-family: "Kaushan Script";
-      font-weight: 500;
-    }
-    @media screen and (min-width: 1200px) {
-      font-size: 18px;
-      font-family: "Kaushan Script";
-      font-weight: 500;
-    }
-  }
-  &__headings {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    align-items: center;
-    justify-content: center;
-    @media screen and (min-width: 768px) {
-      gap: 8px;
-    }
-    @media screen and (min-width: 1200px) {
-      gap: 10px;
-    }
-  }
-  &__heading {
-    font-family: "Montserrat";
-    font-size: small;
-    @media screen and (min-width: 1200px) {
-      font-size: 18px;
-    }
-  }
 
   &__list {
     display: grid;
@@ -48,19 +14,7 @@
       gap: 10px;
     }
   }
-  &__seperator {
-    display: inline-block;
-    background-color: $deepOrange;
-    width: 30px;
-    height: 2px;
-    margin-top: 5px;
-    @media screen and (min-width: 768px) {
-      margin-top: 10px;
-    }
-    @media screen and (min-width: 1200px) {
-      margin-top: 12px;
-    }
-  }
+
   &__item {
     display: flex;
     flex-direction: row;
